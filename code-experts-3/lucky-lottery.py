@@ -1,4 +1,3 @@
-from itertools import permutations;
 _ = map(int, raw_input().split())
 n, t, tc = _[0], _[1], 0;
 perm_string = '1'*t + '0'*(n-t);
